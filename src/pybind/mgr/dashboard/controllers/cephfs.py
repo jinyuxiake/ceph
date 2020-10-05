@@ -2,9 +2,9 @@
 import os
 from collections import defaultdict
 
-import cephfs
 import cherrypy
 
+import cephfs
 from .. import mgr
 from ..exceptions import DashboardException
 from ..security import Scope

@@ -4,9 +4,9 @@ from __future__ import absolute_import
 import logging
 from functools import partial
 
-import cephfs
 import cherrypy
 
+import cephfs
 from ..security import Scope
 from ..services.cephfs import CephFS
 from ..services.cephx import CephX

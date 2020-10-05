@@ -10,9 +10,9 @@ import time
 import cherrypy
 from cherrypy._cptools import HandlerWrapperTool
 from cherrypy.test import helper
-from mgr_module import CLICommand
 from pyfakefs import fake_filesystem
 
+from mgr_module import CLICommand
 from .. import mgr
 from ..controllers import generate_controller_routes, json_error_page
 from ..plugins import PLUGIN_MANAGER, debug, feature_toggles  # noqa
